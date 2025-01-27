@@ -1,13 +1,10 @@
-package com.thetestingacademy.pages.pageObjectModel.orangehr;
+package com.thetestingacademy.pages.pageObjectModel.OrangeHR;
 
+import com.thetestingacademy.base.CommonToAllPages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import com.thetestingacademy.base.CommonToAllPage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
-public class DashBoardPage_POM_OHR  extends CommonToAllPage{
-
+public class DashBoardPage_POM_OHR extends CommonToAllPages {
     WebDriver driver;
 
     public DashBoardPage_POM_OHR(WebDriver driver) {
@@ -24,5 +21,6 @@ public class DashBoardPage_POM_OHR  extends CommonToAllPage{
     public String loggedInUserName() {
         presenceOfElement(userNameOnDashboard);
         return getElement(userNameOnDashboard).getText();
-    }}
+    }
+}
 

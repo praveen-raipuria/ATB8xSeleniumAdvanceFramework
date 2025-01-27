@@ -7,10 +7,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-import static java.sql.DriverManager.getDriver;
+import static com.thetestingacademy.driver.DriverManager.getDriver;
 
 public class CommonToAllPages {
-    public CommonToAllPage() {
+
+    public CommonToAllPages() {
         // If you want to call something before every Page Object Class call, Put your Code here");
         // Open File, Open Data Base Connection You can write code here
     }
@@ -49,7 +50,5 @@ public class CommonToAllPages {
         return getDriver().findElement(key);
     }
 
-
-}
 
 }

@@ -1,6 +1,7 @@
-package com.thetestingacademy.Tests.appvwoLogin;
+package com.thetestingacademy.Tests.vwoLogin;
 
-import com.thetestingacademy.pages.pageObjectModel.LoginPage_POM;
+import com.thetestingacademy.pages.pageObjectModel.vwo.LoginPage_POM;
+import com.thetestingacademy.utils.PropertiesReader;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;

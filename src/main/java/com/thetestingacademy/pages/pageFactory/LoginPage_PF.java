@@ -1,12 +1,12 @@
 package com.thetestingacademy.pages.pageFactory;
-import com.thetestingacademy.base.CommonToAllPage;
+import com.thetestingacademy.base.CommonToAllPages;
 import com.thetestingacademy.utils.PropertiesReader;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage_PF {
+public class LoginPage_PF extends CommonToAllPages {
 
     // Param  C
     public LoginPage_PF(WebDriver driver){
@@ -31,7 +31,7 @@ public class LoginPage_PF {
     // Page Actions
     public String loginToVWOInvalidCreds() {
 
-        enterInput(username, PropertiesReader.readKey("invalid_username"));
+        enterInput(username,PropertiesReader.readKey("invalid_username"));
         enterInput(password,PropertiesReader.readKey("invalid_password"));
         clickElement(signButton);
         try {
@@ -42,12 +42,6 @@ public class LoginPage_PF {
         return error_message.getText();
 
     }
-
-
-
-
-
-
 
 
 
