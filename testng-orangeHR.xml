@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="ATB8xSeleniumAdvanceFramework">
         <classes>
-            <class name="com.thetestingacademy.tests.OrangeHR.TestOrangeHR_POM">
+            <class name="com.thetestingacademy.Tests.OrangeHR.TestOrangeHR_POM">
             </class>
         </classes>
     </test>
