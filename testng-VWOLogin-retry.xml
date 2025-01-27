@@ -8,7 +8,7 @@
 
     <test verbose="2" preserve-order="true" name="ATB8xSeleniumAdvanceFramework">
         <classes>
-            <class name="com.thetestingacademy.tests.vwoLogin.pageFactory_TestCase.TestVWOLogin_PF">
+            <class name="com.thetestingacademy.Tests.vwoLogin.PageFactory_TestCase.TestVWOLogin_PF">
             </class>
         </classes>
     </test>
